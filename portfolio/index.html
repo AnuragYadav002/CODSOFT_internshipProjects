@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Yadav | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cursor-glow"></div>
+
+    <nav id="navbar">
+        <div class="logo">Anurag<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Open for Web Opportunities</span>
+            <h1>Anurag Yadav</h1>
+            <h2>Web Developer & <span class="text-gradient">Founder</span></h2>
+            <p>BSc CS Final Year Student | Strategic Thinker | Educator</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="Anurag resume.png" class="btn-outline" download>Resume PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container reveal">
+        <div class="about-grid">
+            <div class="about-img-box">
+                <img src="images/me.png" alt="Anurag Yadav" class="profile-img">
+            </div>
+            <div class="about-text">
+                <span class="tagline">The Digital Architect</span>
+                <h2>Crafting logical solutions with a creative edge.</h2>
+                <p>I am a final-year BSc Computer Science student specializing in building high-performance web experiences. As the founder of **PeopleMart**, I manage complex digital infrastructures, while my experience as a **Maths & Physics tutor** ensures my technical work is always grounded in rigorous logic.</p>
+                <div class="skill-chips">
+                    <span><i class="fas fa-code"></i> Full-Stack Dev</span>
+                    <span><i class="fas fa-lightbulb"></i> Startup Strategy</span>
+                    <span><i class="fas fa-atom"></i> Science Tutor</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container reveal">
+        <h2 class="section-title">Academic & Professional Work</h2>
+        <div class="project-grid">
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-users"></i></div>
+                <h3>Flameies Website</h3>
+                <span class="project-tag">Group Project</span>
+                <p>Designed the frontend for an organic candle brand, balancing aesthetic Pinterest-style layouts with clean performance.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Result Management System</h3>
+                <span class="project-tag">Final Year Project</span>
+                <p>An automated management portal for processing student academic results, emphasizing data security and speed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container reveal">
+        <div class="exp-wrapper">
+            <div class="glass-card exp-item">
+                <div class="exp-header">
+                    <h3>Founder @PeopleMart</h3>
+                    <span class="status-tag">Ongoing</span>
+                </div>
+                <p>Directing the technical roadmap and business growth of the PeopleMart marketplace platform.</p>
+            </div>
+            <div class="glass-card exp-item">
+                <div class="exp-header">
+                    <h3>Private Tutor (Maths & Physics)</h3>
+                    <span class="status-tag">Part-time</span>
+                </div>
+                <p>Simplifying advanced concepts for students, bridging the gap between theory and practical application.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container reveal">
+        <div class="contact-main-card glass-card">
+            <div class="contact-info">
+                <h2>Let's connect.</h2>
+                <p>I'm always open to discussing new projects, tutoring opportunities, or tech trends.</p>
+                <div class="info-details">
+                    <div class="info-item"><i class="fas fa-envelope"></i> <span>anuragyadav9022@gmail.com</span></div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span>Mumbai, India</span></div>
+                </div>
+            </div>
+            <form id="contactForm" class="contact-form-area">
+                <div class="input-container">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-container">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="input-container">
+                    <textarea id="message" rows="4" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn-primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 <strong>Anurag Yadav</strong> | Developed with precision for the modern web.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/anurag-yadav-110a3037a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AnuragYadav002"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
